@@ -172,16 +172,16 @@ condition_options = OptionMenu(condition_frame, conditions,
 mybutton3 = Button(condition_frame, text="Select condition",
                    command=show3).pack()
 side1_label = Label(condition_frame, text="Enter first number").pack()
-side1_entry = Entry(condition_frame, font=("Helvetica", 20))
+side1_entry = Entry(condition_frame, font=("Helvetica", 20),bg = "blue")
 side1_entry.pack()
 side2_label = Label(condition_frame, text="Enter second number").pack()
-side2_entry = Entry(condition_frame, font=("Helvetica", 20))
+side2_entry = Entry(condition_frame, font=("Helvetica", 20), bg = "green")
 side2_entry.pack()
 side3_label = Label(condition_frame, text="Enter third number").pack()
-side3_entry = Entry(condition_frame, font=("Helvetica", 20))
+side3_entry = Entry(condition_frame, font=("Helvetica", 20), bg = "pink")
 side3_entry.pack()
 angle_label = Label(condition_frame, text="Enter angle in degrees").pack()
-angle_entry = Entry(condition_frame, font=("Helvetica", 20))
+angle_entry = Entry(condition_frame, font=("Helvetica", 20), bg = "purple")
 angle_entry.pack()
 
 # button frame
